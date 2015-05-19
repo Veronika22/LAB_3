@@ -11,6 +11,8 @@ public abstract class  Lab3 {
         while(in.hasNext())
             s += in.nextLine() + "\r\n";
         in.close();*/
+
+
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String s = reader.readLine();
 
