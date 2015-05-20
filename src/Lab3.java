@@ -6,15 +6,15 @@ import java.util.regex.Pattern;
 public abstract class  Lab3 {
 
     public static void main(String[] args) throws IOException {
-        /*String s = "";
-        Scanner in = new Scanner(new File("D:\\Git\\PP\\PP_Lab3\\file.txt"));
+        String s = "";
+        Scanner in = new Scanner(new File("D:\\f1.txt"));
         while(in.hasNext())
             s += in.nextLine() + "\r\n";
-        in.close();*/
+        in.close();
 
 
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String s = reader.readLine();
+       //BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        //String s = reader.readLine();
 
         System.out.println("Итого: " + getNumOfVerbs(s) + " совпадения.");
         System.out.println("Итого: " + getNumOfAdj(s) + " совпадения.");
